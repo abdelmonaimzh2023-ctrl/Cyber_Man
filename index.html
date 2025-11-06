@@ -1,113 +1,137 @@
-# Cyber_Man
-Cyber_security  group telegram
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="ar" dir="rtl">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>شروحات الأمن السيبراني | Cyber_Man</title>
-<style>
-  body {
-    margin: 0;
-    font-family: "Tajawal", sans-serif;
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
-                url("test.jpeg") no-repeat center center fixed;
-    background-size: cover;
-    color: white;
-    text-align: center;
-    line-height: 1.8;
-  }
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>الهكر الأخلاقي — Cyber_Man</title>
+  <style>
+    :root{
+      --accent:#06b6d4;
+      --muted:#b8cbd6;
+      --card-bg: rgba(0,0,0,0.55);
+      --maxw:980px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: "Tajawal", "Tahoma", sans-serif;
+      background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.6)),
+                  url("test.png") no-repeat center center fixed;
+      background-size: cover;
+      color:#e6eef6;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      padding:28px;
+    }
+    .container{max-width:var(--maxw);margin:0 auto}
+    header{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:18px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{width:56px;height:56px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#0ea5a0);display:flex;align-items:center;justify-content:center;font-weight:700;color:#042028;font-size:20px;box-shadow:0 6px 18px rgba(0,0,0,0.45)}
+    h1{margin:0;font-size:20px}
+    p.lead{margin:6px 0 0;color:var(--muted);font-size:13px}
 
-  h1 {
-    margin-top: 40px;
-    color: #38bdf8;
-    font-size: 2em;
-  }
+    .card{background:var(--card-bg);padding:18px;border-radius:12px;box-shadow:0 8px 30px rgba(2,6,12,0.6);margin-bottom:14px}
+    main{min-height:60vh}
 
-  .content {
-    max-width: 800px;
-    margin: 40px auto;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 30px;
-    border-radius: 20px;
-    box-shadow: 0 0 20px rgba(56,189,248,0.3);
-  }
+    .card h2{margin:0 0 8px;font-size:16px;color:var(--accent)}
+    .card p{margin:0 0 10px;color:#c7d3db;font-size:14px;line-height:1.6;text-align:justify}
 
-  h2 {
-    color: #38bdf8;
-    margin-top: 30px;
-  }
+    .tele-btn{
+      display:inline-flex;align-items:center;gap:10px;padding:12px 16px;border-radius:10px;background:linear-gradient(90deg,#2AABEE,#1E96D1);color:#041826;text-decoration:none;font-weight:700;margin-top:12px;box-shadow:0 6px 18px rgba(26,150,210,0.18)
+    }
+    .tele-btn:hover{transform:translateY(-3px);transition:all .18s}
+    footer{margin-top:26px;color:var(--muted);font-size:13px;text-align:center}
 
-  p {
-    text-align: justify;
-    direction: rtl;
-    font-size: 1rem;
-    color: #f1f5f9;
-  }
-
-  .telegram-btn {
-    display: inline-block;
-    background-color: #0088cc;
-    color: white;
-    text-decoration: none;
-    padding: 14px 28px;
-    border-radius: 50px;
-    font-weight: bold;
-    margin-top: 30px;
-    font-size: 1.1em;
-    transition: 0.3s;
-  }
-
-  .telegram-btn:hover {
-    background-color: #00a2ff;
-    transform: scale(1.05);
-  }
-
-  footer {
-    margin-top: 50px;
-    font-size: 0.9em;
-    color: #94a3b8;
-  }
-
-  @media (max-width: 600px) {
-    h1 { font-size: 1.6em; }
-    .content { width: 90%; padding: 20px; }
-    p { font-size: 0.95rem; }
-  }
-</style>
+    @media(max-width:900px){ header{flex-direction:column;align-items:flex-start} .brand{margin-bottom:8px} }
+  </style>
 </head>
 <body>
-  <h1>شروحات حول الأمن السيبراني 🔐</h1>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">EH</div>
+        <div>
+          <h1>الهكر الأخلاقي — Ethical Hacking</h1>
+          <p class="lead">تعلم مهارات اختبار الاختراق ضمن إطار قانوني وأخلاقي لحماية الأنظمة والبيانات.</p>
+        </div>
+      </div>
 
-  <div class="content">
-    <h2>ما هو الأمن السيبراني؟</h2>
-    <p>
-      الأمن السيبراني هو العلم الذي يهدف إلى حماية الأنظمة الرقمية والشبكات من الهجمات والاختراقات.
-      في عالم اليوم، أصبحت البيانات أثمن من الذهب، وحمايتها مسؤولية كل مستخدم وشركة.
-    </p>
+      <div style="text-align:left">
+        <div style="font-size:13px;color:var(--muted)">انضم لمجتمعنا</div>
+        <a class="tele-btn" href="https://t.me/REAL_ARMY_31" target="_blank" rel="noopener noreferrer">افتح تيليجرام</a>
+      </div>
+    </header>
 
-    <h2>أنواع التهديدات السيبرانية</h2>
-    <p>
-      تتنوع التهديدات بين هجمات الفيروسات، التصيد الإلكتروني، والهندسة الاجتماعية.
-      كما أن البرمجيات الخبيثة (Malware) تعتبر من أكثر الوسائل استخدامًا لاختراق الأنظمة.
-    </p>
+    <main>
+      <section class="card">
+        <h2>ما هو الهكر الأخلاقي؟</h2>
+        <p>
+          الهكر الأخلاقي هو استخدام مهارات اكتشاف الثغرات واختبار الأنظمة بهدف تحسين الأمن، وليس لإلحاق الضرر.
+          يعمل الخبراء الأخلاقيون تحت إذن واضح (توثيق قانوني) لإيجاد نقاط الضعف وإصلاحها قبل أن يستغلها المهاجمون.
+        </p>
+      </section>
 
-    <h2>نصائح للحماية</h2>
-    <p>
-      🔸 استخدم كلمات مرور قوية ومختلفة لكل حساب.<br>
-      🔸 فعّل المصادقة الثنائية (2FA).<br>
-      🔸 لا تضغط على الروابط المشبوهة.<br>
-      🔸 حدث برامجك باستمرار لتجنب الثغرات.<br>
-      🔸 استخدم شبكة VPN عند الاتصال بشبكات عامة.
-    </p>
+      <section class="card">
+        <h2>أهداف الهكر الأخلاقي</h2>
+        <p>
+          • اكتشاف الثغرات الأمنية وإبلاغ الجهات المسؤولة بها.<br>
+          • اقتراح حلول وتدابير تصحيح وتقوية الأنظمة.<br>
+          • تدريب فرق الدفاع وتحسين إجراءات الاستجابة للحوادث.<br>
+          • رفع مستوى الوعي الأمني لدى الأفراد والمؤسسات.
+        </p>
+      </section>
 
-    <h2>تعلم أكثر وانضم لمجتمعنا</h2>
-    <p>يمكنك الانضمام إلى مجموعة التلغرام الخاصة بنا للتعلم أكثر ومشاركة المعرفة حول الأمن السيبراني.</p>
+      <section class="card">
+        <h2>مبادئ أساسية وأخلاقيات</h2>
+        <p>
+          أهم قاعدة: لا تقوم بأي اختبار بدون إذن صريح وموثق من مالك النظام. استخدام مهاراتك بدون تفويض قد يعد جريمة.
+          كن شفافًا في تقاريرك، احمِ بيانات المستخدمين، وتعاون مع الفرق لإصلاح المشكلات بسرعة.
+        </p>
+      </section>
 
-    <a class="telegram-btn" href="https://t.me/REAL_ARMY_31" target="_blank">انضم إلى مجموعتنا على تيليجرام 💬</a>
+      <section class="card">
+        <h2>بيئات آمنة للتدريب</h2>
+        <p>
+          للتدريب العملي استخدم مختبرات مصمّمة لذلك: بيئات CTF (Capture The Flag)، منصات مثل TryHackMe و Hack The Box، ومختبرات محلية مع صور افتراضية.
+          لا تختبر أنظمة حقيقية دون تصريح، وفضّل دائمًا البيئات المعزولة للتعلّم.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>أدوات قانونية مفيدة</h2>
+        <p>
+          هناك أدوات مسموح باستخدامها لاختبار الأمان عند الحصول على إذن: مسح المنافذ، تحليل الحزم، فحص تطبيقات الويب باستخدام أدوات مصمَّمة لذلك.
+          احرص على استخدام أدوات موثوقة وبقراءة توثيقها ومعرفة حدود استخدامها القانوني.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>مسار تعلم مقترح</h2>
+        <p>
+          ابدأ بأساسيات الشبكات وأنظمة التشغيل، ثم تعلّم مفاهيم أمن التطبيقات والشبكات.
+          بعد ذلك مارس في مختبرات CTF واطلب تحديات عملية مصمَّمة للتعلّم. الشهادات مثل CompTIA Security+ و OSCP مفيدة للمتقدمين.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>كتابة تقارير واختبار بعد التصحيح</h2>
+        <p>
+          مهارة التقارير مهمة: اشرح الثغرة، كيفية استغلالها (بصورة مُختصرة وآمنة)، درجة الخطورة، وخطوات التصحيح.
+          بعد تطبيق التصحيحات قم بإجراء اختبار متابعة للتأكد من إغلاق الثغرة فعلياً.
+        </p>
+      </section>
+
+      <section class="card" style="text-align:center">
+        <h2>انضم للمجتمع وتعلّم أكثر</h2>
+        <p>إذا أردت موارد عملية، ملفات تدريبية، وورش عمل آمنة، انقر للانضمام لمجموعتنا على تيليجرام.</p>
+        <a class="tele-btn" href="https://t.me/REAL_ARMY_31" target="_blank" rel="noopener noreferrer">انضم الآن إلى تيليجرام 💬</a>
+        <div style="margin-top:10px;color:var(--muted);font-size:13px">تذكير: التزامك بالقانون والأخلاق يأتي أولاً.</div>
+      </section>
+    </main>
+
+    <footer>© 2025 Cyber_Man — مواد تعليمية وأخلاقية حول الأمن السيبراني</footer>
   </div>
-
-  <footer>© 2025 Cyber_Man | جميع الحقوق محفوظة</footer>
 </body>
 </html>
-![test](https://github.com/user-attachments/assets/7042f37e-a3ca-4eff-8acf-9616106b2b19)
+
+
